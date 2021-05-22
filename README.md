@@ -557,10 +557,9 @@ data.head(25)
 
 ### Check duplicates
 
-
 ```python
 # TODO: print duplicates
-duplicated = data.duplicated()
+duplicated = data.duplicatedTable()
 num_duplicated = 0
 
 for isDuplicated in duplicated:
